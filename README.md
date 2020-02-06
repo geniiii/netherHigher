@@ -11,5 +11,5 @@ netherHigher bundles [Fiber][fiber], which is licensed under [Apache v2](LICENSE
 [release-badge]: https://img.shields.io/github/v/release/polgaria/netherHigher?include_prereleases
 [cf-downloads-badge]: http://cf.way2muchnoise.eu/netherhigher.svg
 [cf-available-badge]: http://cf.way2muchnoise.eu/versions/netherhigher.svg
-[cf-link]: https://minecraft.curseforge.com/projects/netherhigher
+[cf-link]: https://www.curseforge.com/minecraft/mc-mods/netherhigher
 [releases-link]: https://github.com/polgaria/netherHigher/releases
