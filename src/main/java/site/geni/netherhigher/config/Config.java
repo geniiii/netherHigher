@@ -4,7 +4,6 @@ import me.zeroeightsix.fiber.JanksonSettings;
 import me.zeroeightsix.fiber.exception.FiberException;
 import me.zeroeightsix.fiber.tree.ConfigNode;
 import me.zeroeightsix.fiber.tree.ConfigValue;
-import me.zeroeightsix.fiber.tree.Node;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.File;
@@ -16,29 +15,19 @@ public class Config {
 
 	private ConfigNode root = new ConfigNode();
 
-	private Node general;
 	// General
 	public ConfigValue<Boolean> raiseNetherHeightLimit = ConfigValue.builder(Boolean.class)
-		.withParent(general)
+		.withParent(root)
 		.withDefaultValue(true)
 		.withComment("Raises the Nether height limit to 256.")
 		.withName("raiseNetherHeightLimit")
 		.build();
 	public ConfigValue<Boolean> raiseEndHeightLimit = ConfigValue.builder(Boolean.class)
-		.withParent(general)
+		.withParent(root)
 		.withDefaultValue(true)
 		.withComment("Raises the End height limit to 256.")
 		.withName("raiseEndHeightLimit")
 		.build();
-
-	{
-		try {
-			general = root.fork("general");
-		} catch (FiberException e) {
-			e.printStackTrace();
-		}
-	}
-
 
 	public Config() {
 	}
