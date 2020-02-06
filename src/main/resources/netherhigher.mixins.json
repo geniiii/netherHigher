@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "site.geni.netherhigher.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+		"common.world.WorldMixin",
+    "common.world.biome.NetherBiomeMixin",
+    "common.generators.CavesChunkGeneratorMixin",
+    "common.generators.FloatingIslandsChunkGeneratorMixin",
+    "common.world.gen.decorator.HellFireDecoratorMixin",
+    "common.world.gen.surfacebuilder.NetherSurfaceBuilderMixin",
+    "common.world.gen.carver.NetherCaveCarverMixin",
+    "common.world.gen.chunk.CavesChunkGeneratorConfigMixin"
+	],
+  "minVersion": "0.7.11",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

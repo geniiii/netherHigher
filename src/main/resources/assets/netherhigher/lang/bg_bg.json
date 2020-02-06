@@ -1,0 +1,8 @@
+{
+	"config.netherhigher.title": "netherHigher конфигурация",
+
+	"config.netherhigher.warning": "За да се променят напълно настройките е необходимо да се рестартира играта!",
+
+	"config.netherhigher.raiseNetherHeightLimit": "Увеличи височината на The Nether",
+	"config.netherhigher.raiseEndHeightLimit": "Увеличи височината на The End"
+}

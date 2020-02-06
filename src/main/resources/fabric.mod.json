@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "netherhigher",
+	"version": "${version}",
+	"name": "netherHigher",
+	"description": "Raises The Nether's height limit to 256",
+	"authors": [
+		"geni"
+	],
+	"contact": {
+		"homepage": "https://geni.site",
+		"sources": "https://github.com/polgaria/netherHigher",
+		"issues": "https://github.com/polgaria/netherHigher/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/netherhigher/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"site.geni.netherhigher.NetherHigher"
+		],
+		"modmenu": [
+			"site.geni.netherhigher.NetherHigherModMenuApiImpl"
+		],
+		"cotton-client-commands": [
+			"site.geni.netherhigher.NetherHigherCommands"
+		]
+	},
+	"mixins": [
+		"netherhigher.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=1.15.2",
+		"fabricloader": ">=0.7.2",
+		"fabric-resource-loader-v0": ">=0.1.6",
+		"cloth-config2": ">=2.9.3",
+		"cotton-client-commands": ">=0.4.2"
+	},
+	"suggested": {
+		"modmenu": "*"
+	}
+}
