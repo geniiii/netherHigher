@@ -12,6 +12,9 @@
     "common.world.gen.carver.NetherCaveCarverMixin",
     "common.world.gen.chunk.CavesChunkGeneratorConfigMixin"
 	],
+	"client": [
+		"client.gui.ChatScreenMixin"
+	],
   "minVersion": "0.7.11",
   "injectors": {
     "defaultRequire": 1
