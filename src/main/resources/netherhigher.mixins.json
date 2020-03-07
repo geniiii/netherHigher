@@ -1,28 +1,24 @@
 {
-  "required": true,
-  "package": "site.geni.netherhigher.mixins",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [
-		"common.world.WorldMixin",
+	"required": true,
+	"package": "site.geni.netherhigher.mixins",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
 		"common.world.biome.DefaultBiomeFeaturesMixin",
 		"common.world.biome.CrimsonForestBiomeMixin",
 		"common.world.biome.WarpedForestBiomeMixin",
 		"common.world.biome.SoulSandValleyBiomeMixin",
 		"common.world.biome.NetherWastesBiomeMixin",
 		"common.generators.CavesChunkGeneratorMixin",
-    "common.generators.FloatingIslandsChunkGeneratorMixin",
-    "common.world.gen.decorator.HellFireDecoratorMixin",
-    "common.world.gen.surfacebuilder.NetherSurfaceBuilderMixin",
+		"common.generators.FloatingIslandsChunkGeneratorMixin",
+		"common.world.gen.decorator.HellFireDecoratorMixin",
+		"common.world.gen.surfacebuilder.NetherSurfaceBuilderMixin",
 		"common.world.gen.surfacebuilder.NetherForestSurfaceBuilderMixin",
 		"common.world.gen.surfacebuilder.SoulSandValleySurfaceBuilderMixin",
 		"common.world.gen.carver.NetherCaveCarverMixin",
-    "common.world.gen.chunk.CavesChunkGeneratorConfigMixin"
+		"common.world.gen.chunk.CavesChunkGeneratorConfigMixin"
 	],
-	"client": [
-		"client.gui.ChatScreenMixin"
-	],
-  "minVersion": "0.7.11",
-  "injectors": {
-    "defaultRequire": 1
-  }
+	"minVersion": "0.7.11",
+	"injectors": {
+		"defaultRequire": 1
+	}
 }
