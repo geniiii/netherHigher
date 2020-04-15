@@ -5,6 +5,7 @@
 	"mixins": [
 		"common.world.biome.DefaultBiomeFeaturesMixin",
 		"common.world.biome.CrimsonForestBiomeMixin",
+		"common.world.biome.BasaltDeltasBiomeMixin",
 		"common.world.biome.WarpedForestBiomeMixin",
 		"common.world.biome.SoulSandValleyBiomeMixin",
 		"common.world.biome.NetherWastesBiomeMixin",
@@ -13,7 +14,6 @@
 		"common.world.gen.decorator.HellFireDecoratorMixin",
 		"common.world.gen.surfacebuilder.NetherSurfaceBuilderMixin",
 		"common.world.gen.surfacebuilder.NetherForestSurfaceBuilderMixin",
-		"common.world.gen.surfacebuilder.SoulSandValleySurfaceBuilderMixin",
 		"common.world.gen.carver.NetherCaveCarverMixin",
 		"common.world.gen.chunk.CavesChunkGeneratorConfigMixin"
 	],
