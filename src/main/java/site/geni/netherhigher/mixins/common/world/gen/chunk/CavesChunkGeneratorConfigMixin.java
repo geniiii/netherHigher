@@ -19,7 +19,7 @@ public abstract class CavesChunkGeneratorConfigMixin {
 		constant = @Constant(
 			intValue = 127
 		),
-		method = "getMaxY"
+		method = "getBedrockCeilingY"
 	)
 	private static int setMaxY(int original) {
 		return NetherHigher.getConfig().raiseNetherHeightLimit.getValue() ? 255 : original;
