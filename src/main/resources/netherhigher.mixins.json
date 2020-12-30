@@ -3,7 +3,7 @@
 	"package": "site.geni.netherhigher.mixins",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-		"common.generators.CavesChunkGeneratorMixin",
+		"common.generators.ChunkGeneratorSettingsMixin",
 		"common.world.gen.carver.NetherCaveCarverMixin",
 		"common.world.gen.decorator.HellFireDecoratorMixin",
 		"common.world.gen.feature.ConfiguredFeaturesMixin",
