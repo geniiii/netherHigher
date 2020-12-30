@@ -30,13 +30,13 @@
 		"netherhigher.mixins.json"
 	],
 	"depends": {
-		"minecraft": ">=1.15.2",
-		"fabricloader": ">=0.7.2",
-		"fabric-resource-loader-v0": ">=0.1.6",
-		"cloth-config2": ">=2.9.3",
-		"cotton-client-commands": ">=0.4.2"
+		"minecraft": ">=1.16.1",
+		"fabricloader": ">=0.7",
+		"fabric-resource-loader-v0": "*",
+		"cloth-config2": ">=4",
+		"cotton-client-commands": ">=0.4"
 	},
-	"suggested": {
+	"suggests": {
 		"modmenu": "*"
 	}
 }

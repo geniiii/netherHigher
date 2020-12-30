@@ -3,19 +3,14 @@
 	"package": "site.geni.netherhigher.mixins",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-		"common.world.biome.DefaultBiomeFeaturesMixin",
-		"common.world.biome.CrimsonForestBiomeMixin",
-		"common.world.biome.WarpedForestBiomeMixin",
-		"common.world.biome.SoulSandValleyBiomeMixin",
-		"common.world.biome.NetherWastesBiomeMixin",
-		"common.generators.CavesChunkGeneratorMixin",
-		"common.generators.FloatingIslandsChunkGeneratorMixin",
-		"common.world.gen.decorator.HellFireDecoratorMixin",
-		"common.world.gen.surfacebuilder.NetherSurfaceBuilderMixin",
-		"common.world.gen.surfacebuilder.NetherForestSurfaceBuilderMixin",
-		"common.world.gen.surfacebuilder.SoulSandValleySurfaceBuilderMixin",
+		"common.generators.ChunkGeneratorSettingsMixin",
 		"common.world.gen.carver.NetherCaveCarverMixin",
-		"common.world.gen.chunk.CavesChunkGeneratorConfigMixin"
+		"common.world.gen.decorator.HellFireDecoratorMixin",
+		"common.world.gen.feature.ConfiguredFeaturesMixin",
+		"common.world.gen.feature.DecoratorsMixin",
+		"common.world.gen.surfacebuilder.AbstractNetherSurfaceBuilderMixin",
+		"common.world.gen.surfacebuilder.NetherSurfaceBuilderMixin",
+		"common.world.gen.surfacebuilder.NetherForestSurfaceBuilderMixin"
 	],
 	"minVersion": "0.7.11",
 	"injectors": {

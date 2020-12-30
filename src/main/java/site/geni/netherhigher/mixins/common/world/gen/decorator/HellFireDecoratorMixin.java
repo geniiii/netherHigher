@@ -1,12 +1,12 @@
 package site.geni.netherhigher.mixins.common.world.gen.decorator;
 
-import net.minecraft.world.gen.decorator.HellFireDecorator;
+import net.minecraft.world.gen.decorator.FireDecorator;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 import site.geni.netherhigher.NetherHigher;
 
-@Mixin(HellFireDecorator.class)
+@Mixin(FireDecorator.class)
 public abstract class HellFireDecoratorMixin {
 	/**
 	 * Sets the height limit for fire generation to 120 (+ 4), depending on the mod's configuration
