@@ -4,7 +4,7 @@ import me.shedaniel.clothconfig2.api.ConfigBuilder;
 import me.shedaniel.clothconfig2.gui.ClothConfigScreen;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.resource.language.I18n;
+import net.minecraft.text.TranslatableText;
 import site.geni.netherhigher.NetherHigher;
 
 public class CustomizeNetherHigherScreen {
@@ -18,10 +18,10 @@ public class CustomizeNetherHigherScreen {
 	public static Screen createConfigScreen(Screen parent) {
 		final ConfigBuilder builder = ConfigBuilder.create()
 			.setParentScreen(parent)
-			.setTitle(I18n.translate("config.netherhigher.title"))
+			.setTitle(new TranslatableText("config.netherhigher.title"))
 			.setSavingRunnable(NetherHigher::saveConfig);
 
-		Categories.General.createCategory(builder.getOrCreateCategory("config.netherhigher.category.general"));
+		Categories.General.createCategory(builder.getOrCreateCategory(new TranslatableText("config.netherhigher.category.general")));
 
 		return builder.build();
 	}

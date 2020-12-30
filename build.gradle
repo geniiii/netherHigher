@@ -29,6 +29,8 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_version}"
     include "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_version}"
 
+    include(modApi("me.shedaniel.cloth:basic-math:+"))
+
     modImplementation("me.shedaniel.cloth:config-2:${project.clothconfig_version}") { transitive = false }
     include "me.shedaniel.cloth:config-2:${project.clothconfig_version}"
 

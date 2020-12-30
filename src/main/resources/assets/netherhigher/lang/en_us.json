@@ -1,7 +1,7 @@
 {
   "config.netherhigher.title": "netherHigher configuration",
 
-	"config.netherhigher.warning": "Restarting the game is required to fully change the settings!",
+  "config.netherhigher.warning": "Restarting the game is required to fully change the settings!",
 
   "config.netherhigher.raiseNetherHeightLimit": "Raise The Nether's height limit",
   "config.netherhigher.raiseEndHeightLimit": "Raise The End's height limit"
