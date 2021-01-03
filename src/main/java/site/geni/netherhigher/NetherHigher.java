@@ -12,7 +12,6 @@ public class NetherHigher implements ModInitializer {
 	public static Config getConfig() {
 		return CONFIG;
 	}
-
 	public static void saveConfig() {
 		CONFIG.save();
 	}

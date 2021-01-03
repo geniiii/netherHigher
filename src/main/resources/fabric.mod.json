@@ -7,10 +7,11 @@
 	"authors": [
 		"geni"
 	],
+	"contributors": [],
 	"contact": {
 		"homepage": "https://geni.site",
-		"sources": "https://github.com/polgaria/netherHigher",
-		"issues": "https://github.com/polgaria/netherHigher/issues"
+		"sources": "https://github.com/geniiii/netherHigher",
+		"issues": "https://github.com/geniiii/netherHigher/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/netherhigher/icon.png",
